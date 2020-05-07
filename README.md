@@ -3,14 +3,14 @@ Personal Porfolio project, fully functioning, built with React, Redux and Fireba
 
 ## Features
 User Login/Logout/Registration done with Firebase backend and Auth.
-User uses the interface to choose from a list of categories of products he might want to buy. Once chosen it shows a list of products that can be purchased, price, and a cart. The application calculates total cost, shows cart summary and registers products in cache. 
+User uses the interface to choose from a list of categories of products he might want to buy. Once chosen it shows a list of products that can be purchased, price, and a cart. The application calculates total cost, shows cart summary and registers products in cache.
 
 ## Motivation
-Ive built this project with the intention of putting to practice all the knowledge gathered while studying React/Redux. It has been helping me as well to learn even more about Hooks, Deployment, Firebase backend, etc. 
+Ive built this project with the intention of putting to practice all the knowledge gathered while studying React/Redux. It has been helping me as well to learn even more about Hooks, Deployment, Firebase backend, etc.
 The nice thing about developing an e-commerce is that is a quite usual project,that is required by many, but it also needs a lot of functionalities, many opportunities to learn then.
 
 ## Code style
-Code written using Eslint Recommended for React: 
+Code written using Eslint Recommended for React:
 
 https://www.npmjs.com/package/eslint-plugin-react
 
@@ -57,6 +57,7 @@ Builds the app for production to the `build` folder.<br />
 
 ## Improvements on queue
 
+  - Testing
   - Integration to Striper & Payments
   - Fetch products from GraphQL API
   - Use Hooks
