@@ -1,5 +1,5 @@
 ## React E-Commerce
-Personal Porfolio project, fully functioning, built with React, Redux and Firebase. Still expanding, next changes expected to add Hooks, integrate with Striper and add GraphQL api for product search.
+prsonal Porfolio project, fully functioning, built with React, Redux and Firebase. Still expanding, next changes expected to add Hooks, integrate with Striper and add GraphQL api for product search.
 
 ## Features
 User Login/Logout/Registration done with Firebase backend and Auth.
