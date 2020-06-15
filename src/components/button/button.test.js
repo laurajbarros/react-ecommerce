@@ -4,17 +4,19 @@ import Button from './button.component';
 
 describe('Button', () => {
 
-	it('Should render Button as Google Sign in', () => {
-		const { getByTestId } = render(<Button isGoogleSignIn={true}/>);
+  it('Should render Button', () => {
+    render(<Button/>)
+	});
+
+	it('Should render Button with Google Sign in', () => {
+		const { getByTestId } = render(<Button isGoogleSignIn={true}>Sign In</Button>);
 		const button = getByTestId('button');
-		expect(button).toHaveClass('custom-button');
 		expect(button).toHaveClass('google-sign-in');
 	});
 
   it('Should render Button as inverted', () => {
     const { getByTestId } = render(<Button inverted={true}/>);
     const button = getByTestId('button');
-    expect(button).toHaveClass('custom-button');
     expect(button).toHaveClass('inverted');
   });
 

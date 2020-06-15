@@ -57,7 +57,7 @@ Builds the app for production to the `build` folder.<br />
 
 ## Improvements on queue
 
-  - Testing
+  - Advanced Testing
   - Integration to Striper & Payments
   - Fetch products from GraphQL API
   - Use Hooks
